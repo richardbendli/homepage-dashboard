@@ -1,0 +1,91 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+# icons found here https://github.com/walkxcode/dashboard-icons
+
+- Hypervisor:
+    - Proxmox:
+        href: http://localhost/
+        icon: proxmox.png
+        description: pve1
+        siteMonitor: http://localhost/
+    - Proxmox:
+        href: http://localhost/
+        icon: proxmox.png
+        description: pve2
+        siteMonitor: http://localhost/
+    - Proxmox:
+        href: http://localhost/
+        icon: proxmox.png
+        description: pve3
+        siteMonitor: http://localhost/
+- DNS:
+    - Pi-Hole1:
+        icon: pi-hole.svg
+        href: http://localhost/
+        description: pihole1
+        siteMonitor: http://localhost/
+    - Pi-Hole2:
+        icon: pi-hole.svg
+        href: http://localhost/
+        description: pihole2
+        siteMonitor: http://localhost/
+- Network:
+    - UniFi:
+        icon: unifi.svg
+        href: http://localhost/
+        description: network
+    - Netboot:
+        icon: netboot.svg
+        href: http://localhost/
+        description: network boot utility
+- Storage:
+    - TrueNAS:
+        icon: truenas.svg
+        href: http://localhost/
+        description: scale
+- Media:
+    - Jellyfin:
+        icon: jellyfin.svg
+        href: http://localhost/
+        description: media server
+- Home Automation:
+    - Home Assistant:
+        icon: home-assistant.svg
+        href: http://localhost/
+        description: home
+    - UniFi:
+        icon: https://play-lh.googleusercontent.com/DmgQvSdocOrGr0D0rxSBE9sqh23Fw3ck3BgKRN788cZnOKgcZlcEAFRYwmUbp6vMTVI
+        href: http://localhost/
+        description: protect
+- File Hosting:
+    - Nextcloud:
+        icon: nextcloud.svg
+        href: http://localhost/
+        description: file hosting
+    - File Browser:
+        icon: filebrowser.svg
+        href: http://localhost/
+        description: media file management
+- Other:
+    - Octoprint:
+        icon: octoprint.svg
+        href: http://localhost/
+        description: 3D printer controller application
+- Links:
+    - GitLab:
+        icon: gitlab.svg
+        href: https://gitlab.com
+        description: source code
+    - GitHub:
+        icon: github.svg
+        href: https://github.com
+        description: source code
+    - Linkedin:
+        icon: linkedin.svg
+        href: https://uk.linkedin.com/
+        description: business social media
+    - Reddit:
+        icon: reddit.svg
+        href: https://www.reddit.com/
+        description: social media platform
